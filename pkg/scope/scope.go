@@ -10,7 +10,7 @@ func Scope() {
 	fmt.Println("Scope package")
 	fmt.Println(x)
 
-	// blog scope
+	// block scope
 	y := 43
 	println(y)
 
