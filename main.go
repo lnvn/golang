@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/lnvn/golang/pkg/scope"
+	"github.com/lnvn/puppy"
 )
 
 func main() {
 	fmt.Println("Hello World")
-	scope.Scope()
+	dog1 := puppy.Barks()
+	fmt.Println(dog1)
+
 }
