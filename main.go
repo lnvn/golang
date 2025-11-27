@@ -1,13 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"github.com/lnvn/puppy"
+	"github.com/lnvn/golang/pointer"
 )
 
 func main() {
-	fmt.Println("Hello World")
-	dog1 := puppy.Barks()
-	fmt.Println(dog1)
-
+	// Call pointer package
+	pointer.Pointer()
 }
+
