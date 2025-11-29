@@ -7,5 +7,6 @@ import (
 func main() {
 	// Call pointer package
 	pointer.Pointer()
+	pointer.CheckNil()
 }
 
