@@ -45,7 +45,7 @@ func CheckNil() {
 	fmt.Println("x memory value: ", p)
 
 	if p != nil {
-		fmt.Println("p is not nil, it does not point to a value")
+		fmt.Println("p is not nil, it point to a value")
 		fmt.Printf("p: %v\n\n", p)
 	}
 }
