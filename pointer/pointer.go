@@ -6,7 +6,7 @@ import "fmt"
 
 type Config struct {
 	Timeout int
-	Server string
+	Server  string
 }
 
 func Pointer() {
@@ -45,10 +45,9 @@ func CheckNil() {
 	p = &x
 	// *p = 100
 	fmt.Println("x memory value: ", p)
-	
+
 	if p != nil {
 		fmt.Println("p is not nil, it does not point to a value")
 		fmt.Printf("p: %v\n\n", p)
 	}
 }
-

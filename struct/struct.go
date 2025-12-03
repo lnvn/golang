@@ -6,7 +6,7 @@ import "fmt"
 type Info struct {
 	fistname string
 	lastname string
-	age int
+	age      int
 }
 
 // Embeded struct
@@ -20,15 +20,15 @@ func MyStruct() {
 	p1 := Info{
 		fistname: "Go",
 		lastname: "Lang",
-		age: 16,
+		age:      16,
 	}
 
 	// Embeded struct example
-	p2 := Person {
+	p2 := Person{
 		Info: Info{
 			fistname: "Embeded",
 			lastname: "Struct",
-			age: 1,
+			age:      1,
 		},
 		Gender: "male",
 	}
@@ -36,10 +36,10 @@ func MyStruct() {
 	// Anonymous struct
 	p3 := struct {
 		Server string
-		Port int
+		Port   int
 	}{
 		Server: "localhost",
-		Port: 8080,
+		Port:   8080,
 	}
 
 	fmt.Printf("Type: %T, value: %v\n", p1, p1)

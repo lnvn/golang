@@ -19,7 +19,6 @@ func main() {
 	pointer.CheckNil()
 
 	fmt.Println("----- Variadic Input -----")
-	the_variadic := variadic.VariadicInput(3,2,3,4,5)
+	the_variadic := variadic.VariadicInput(3, 2, 3, 4, 5)
 	fmt.Println(the_variadic)
 }
-
