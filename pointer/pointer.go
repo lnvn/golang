@@ -1,5 +1,3 @@
-// Example of pointer
-
 package pointer
 
 import "fmt"
