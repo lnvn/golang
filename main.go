@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/lnvn/golang/demo_http"
 	"github.com/lnvn/golang/multipleretrun"
 	"github.com/lnvn/golang/pointer"
 	"github.com/lnvn/golang/struct"
@@ -28,4 +29,6 @@ func main() {
 	fmt.Printf("%v, %v, %v", m, n, err)
 
 	fmt.Println("----- Variadic Input -----")
+	fmt.Println("----- HTTP Multiplexer -----")
+	demo_http.MyMux()
 }
