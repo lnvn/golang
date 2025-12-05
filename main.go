@@ -26,4 +26,6 @@ func main() {
 	fmt.Println("----- Variadic Input -----")
 	m, n, err := multiplereturn.MultipleReturn(24, 7)
 	fmt.Printf("%v, %v, %v", m, n, err)
+
+	fmt.Println("----- Variadic Input -----")
 }
